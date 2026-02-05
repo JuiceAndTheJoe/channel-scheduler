@@ -4,6 +4,19 @@ A web-based interface for scheduling and managing video content for [Eyevinn Cha
 
 ![Channel Scheduler Interface](screenshot.png)
 
+---
+<div align="center">
+
+## Quick Demo: Open Source Cloud
+
+Run this service in the cloud with a single click.
+
+[![Badge OSC](https://img.shields.io/badge/Try%20it%20out!-1E3A8A?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iMTIiIGN5PSIxMiIgcj0iMTIiIGZpbGw9InVybCgjcGFpbnQwX2xpbmVhcl8yODIxXzMxNjcyKSIvPgo8Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSI3IiBzdHJva2U9ImJsYWNrIiBzdHJva2Utd2lkdGg9IjIiLz4KPGRlZnM+CjxsaW5lYXJHcmFkaWVudCBpZD0icGFpbnQwX2xpbmVhcl8yODIxXzMxNjcyIiB4MT0iMTIiIHkxPSIwIiB4Mj0iMTIiIHkyPSIyNCIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgo8c3RvcCBzdG9wLWNvbG9yPSIjQzE4M0ZGIi8+CjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzREQzlGRiIvPgo8L2xpbmVhckdyYWRpZW50Pgo8L2RlZnM+Cjwvc3ZnPgo=)](https://app.osaas.io/browse/eyevinn-channel-scheduler)
+
+</div>
+
+---
+
 ## Features
 
 - **Professional Rundown Interface**: Compact, broadcast-style schedule view with start times and current playing indicators
@@ -24,7 +37,7 @@ The fastest way to get started is through **Eyevinn Open Source Cloud**, which p
 
 ![Channel Scheduler Demo](screenrecording.gif)
 
-**🚀 Deploy in One Click:**
+**Deploy in One Click:**
 
 1. Visit [Channel Engine Scheduler on Open Source Cloud](https://docs.osaas.io/osaas.wiki/Service%3A-Channel-Engine-Scheduler.html)
 2. Click **"Create scheduler"** to create your instance
@@ -32,11 +45,11 @@ The fastest way to get started is through **Eyevinn Open Source Cloud**, which p
 4. Start scheduling immediately with professional broadcast tools
 
 **Benefits:**
-- ✅ **Zero Setup** - No dependencies or server management
-- ✅ **Automatic Scaling** - Built-in reliability and performance
-- ✅ **Integrated Billing** - Pay-as-you-use pricing
-- ✅ **OSC Native** - Seamless Channel Engine integration
-- ✅ **SSL & Security** - HTTPS endpoints and secure webhooks
+- **Zero Setup** - No dependencies or server management
+- **Automatic Scaling** - Built-in reliability and performance
+- **Integrated Billing** - Pay-as-you-use pricing
+- **OSC Native** - Seamless Channel Engine integration
+- **SSL & Security** - HTTPS endpoints and secure webhooks
 
 Perfect for production use, demos, and teams who want to focus on content scheduling rather than infrastructure.
 
@@ -138,11 +151,11 @@ With OSC integration enabled, Channel Engine instances are managed automatically
 4. **Monitor Status**: View live status and stream preview in the UI
 
 The system automatically:
-- ✅ Creates Channel Engine instances with sanitized names (alphanumeric only)
-- ✅ Configures webhook URLs for seamless integration
-- ✅ Detects existing engines and offers linking options
-- ✅ Provides live stream previews with HLS video players
-- ✅ Cleans up engines when channels are deleted
+- Creates Channel Engine instances with sanitized names (alphanumeric only)
+- Configures webhook URLs for seamless integration
+- Detects existing engines and offers linking options
+- Provides live stream previews with HLS video players
+- Cleans up engines when channels are deleted
 
 ### Option 2: Manual Setup
 
@@ -162,10 +175,10 @@ If you prefer manual control or don't have OSC integration:
 
 The channel cards display comprehensive engine status:
 
-- 🔵 **Blue**: Channel has linked Channel Engine (ready to stream)
-- 🟠 **Orange**: Unlinked engine detected (click to link)
-- ⚪ **Gray**: No engine instance (click to create)
-- 🟢 **Green**: Additional webhook configuration status
+- **Blue**: Channel has linked Channel Engine (ready to stream)
+- **Orange**: Unlinked engine detected (click to link)
+- **Gray**: No engine instance (click to create)
+- **Green**: Additional webhook configuration status
 
 ### Channel Engines Tab
 
@@ -255,7 +268,7 @@ When OSC integration is enabled, the system automatically:
 
 ### Integration Benefits
 
-- **Seamless Workflow**: Upload → Transcode → Schedule → Broadcast in one interface
+- **Seamless Workflow**: Upload -> Transcode -> Schedule -> Broadcast in one interface
 - **No External Dependencies**: All processing happens within your OSC environment
 - **Broadcast-Ready Output**: HLS segments optimized for Channel Engine compatibility
 - **Automatic Cleanup**: Failed jobs and temporary files are managed automatically
