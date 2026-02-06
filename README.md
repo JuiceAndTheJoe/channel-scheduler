@@ -2,8 +2,6 @@
 
 A web-based interface for scheduling and managing video content for [Eyevinn Channel Engine](https://app.osaas.io/browse/channel-engine) instances. This application provides a professional broadcast-style rundown interface for creating and managing linear TV channel schedules.
 
-![Channel Scheduler Interface](screenshot.png)
-
 ---
 <div align="center">
 
@@ -16,6 +14,8 @@ Run this service in the cloud with a single click.
 </div>
 
 ---
+
+![Channel Scheduler Interface](screenshot.png)
 
 ## Features
 
@@ -37,7 +37,7 @@ The fastest way to get started is through **Eyevinn Open Source Cloud**, which p
 
 ![Channel Scheduler Demo](screenrecording.gif)
 
-**Deploy in One Click:**
+**🚀 Deploy in One Click:**
 
 1. Visit [Channel Engine Scheduler on Open Source Cloud](https://docs.osaas.io/osaas.wiki/Service%3A-Channel-Engine-Scheduler.html)
 2. Click **"Create scheduler"** to create your instance
@@ -45,11 +45,11 @@ The fastest way to get started is through **Eyevinn Open Source Cloud**, which p
 4. Start scheduling immediately with professional broadcast tools
 
 **Benefits:**
-- **Zero Setup** - No dependencies or server management
-- **Automatic Scaling** - Built-in reliability and performance
-- **Integrated Billing** - Pay-as-you-use pricing
-- **OSC Native** - Seamless Channel Engine integration
-- **SSL & Security** - HTTPS endpoints and secure webhooks
+- ✅ **Zero Setup** - No dependencies or server management
+- ✅ **Automatic Scaling** - Built-in reliability and performance
+- ✅ **Integrated Billing** - Pay-as-you-use pricing
+- ✅ **OSC Native** - Seamless Channel Engine integration
+- ✅ **SSL & Security** - HTTPS endpoints and secure webhooks
 
 Perfect for production use, demos, and teams who want to focus on content scheduling rather than infrastructure.
 
@@ -151,11 +151,11 @@ With OSC integration enabled, Channel Engine instances are managed automatically
 4. **Monitor Status**: View live status and stream preview in the UI
 
 The system automatically:
-- Creates Channel Engine instances with sanitized names (alphanumeric only)
-- Configures webhook URLs for seamless integration
-- Detects existing engines and offers linking options
-- Provides live stream previews with HLS video players
-- Cleans up engines when channels are deleted
+- ✅ Creates Channel Engine instances with sanitized names (alphanumeric only)
+- ✅ Configures webhook URLs for seamless integration
+- ✅ Detects existing engines and offers linking options
+- ✅ Provides live stream previews with HLS video players
+- ✅ Cleans up engines when channels are deleted
 
 ### Option 2: Manual Setup
 
@@ -175,10 +175,10 @@ If you prefer manual control or don't have OSC integration:
 
 The channel cards display comprehensive engine status:
 
-- **Blue**: Channel has linked Channel Engine (ready to stream)
-- **Orange**: Unlinked engine detected (click to link)
-- **Gray**: No engine instance (click to create)
-- **Green**: Additional webhook configuration status
+- 🔵 **Blue**: Channel has linked Channel Engine (ready to stream)
+- 🟠 **Orange**: Unlinked engine detected (click to link)
+- ⚪ **Gray**: No engine instance (click to create)
+- 🟢 **Green**: Additional webhook configuration status
 
 ### Channel Engines Tab
 
@@ -268,7 +268,7 @@ When OSC integration is enabled, the system automatically:
 
 ### Integration Benefits
 
-- **Seamless Workflow**: Upload -> Transcode -> Schedule -> Broadcast in one interface
+- **Seamless Workflow**: Upload → Transcode → Schedule → Broadcast in one interface
 - **No External Dependencies**: All processing happens within your OSC environment
 - **Broadcast-Ready Output**: HLS segments optimized for Channel Engine compatibility
 - **Automatic Cleanup**: Failed jobs and temporary files are managed automatically
